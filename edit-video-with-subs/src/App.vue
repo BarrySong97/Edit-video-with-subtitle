@@ -56,34 +56,17 @@
               ></v-data-table>
             </v-window-item>
             <v-window-item :value="3">
-              <div>
-                <v-expansion-panels
-                  v-model="panel"
-                  :disabled="disabled"
-                  multiple
-                  class="pd"
-                >
-                  <v-expansion-panel class="mg">
-                    <v-expansion-panel-header>Front</v-expansion-panel-header>
-                    <v-expansion-panel-content>
-                      Some content
-                    </v-expansion-panel-content>
-                  </v-expansion-panel>
-
-                  <v-expansion-panel>
-                    <v-expansion-panel-header>Back</v-expansion-panel-header>
-                    <v-expansion-panel-content>
-                      Some content
-                    </v-expansion-panel-content>
-                  </v-expansion-panel>
-
-                  <v-expansion-panel>
-                    <v-expansion-panel-header>Css Style</v-expansion-panel-header>
-                    <v-expansion-panel-content>
-                      Some content
-                    </v-expansion-panel-content>
-                  </v-expansion-panel>
-                </v-expansion-panels>
+              <div class="pa-4 text-center">
+                <v-img
+                  class="mb-4"
+                  contain
+                  height="128"
+                  src="https://cdn.vuetifyjs.com/images/logos/v.svg"
+                ></v-img>
+                <h3 class="title font-weight-light mb-2">
+                 Preview
+                </h3>
+                <span class="caption grey--text">Thanks for signing up!</span>
               </div>
             </v-window-item>
 
